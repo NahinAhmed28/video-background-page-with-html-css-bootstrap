@@ -1,14 +1,24 @@
 # Video Background Page with HTML, CSS, and Bootstrap
 
-This project is a front-end web page that uses a full-screen video background with HTML, CSS, and Bootstrap. It focuses on visual presentation, responsive layout, and media-backed landing-page design.
+This project is a Bootstrap front-end page built around a full-screen video background.
 
-## Project Details
+## Features
 
-- Repository: `NahinAhmed28/video-background-page-with-html-css-bootstrap`
-- Default branch: `main`
-- Visibility: public
-- Project type: Bootstrap front-end page
-- Main focus: full-screen video background layout
+- Full-screen video background layout
+- Bootstrap-based responsive page structure
+- Overlay content and landing-page presentation
+- Static browser preview workflow
+
+## Modules
+
+- Layout module: hero section and page structure
+- Media module: video file/background handling
+- Styling module: Bootstrap classes and custom CSS
+- Content module: text, buttons, and landing-page CTA
+
+## System Architecture
+
+The project uses a static front-end architecture. The browser loads HTML, Bootstrap/CSS, JavaScript, and video assets. The media layer supplies the background video, while the layout layer positions overlay content. No backend is required unless forms or dynamic content are added later.
 
 ## Getting Started
 
@@ -17,8 +27,4 @@ git clone https://github.com/NahinAhmed28/video-background-page-with-html-css-bo
 cd video-background-page-with-html-css-bootstrap
 ```
 
-Open the main HTML file in a browser, or serve the folder locally if video paths need a local web server.
-
-## Notes
-
-Keep video assets optimized for the web and document any required media files or browser compatibility notes here.
+Open the main HTML file or serve the folder locally for video path consistency.
